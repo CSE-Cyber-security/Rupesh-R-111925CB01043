@@ -1,0 +1,27 @@
+=== Simple Calculator ===
+Enter first number: 10
+Enter operator (+, -, *, /): +
+Enter second number: 5
+Result: 15.0
+Calculate again? (yes/no): yes
+Enter first number: 10
+Enter operator (+, -, *, /): -
+Enter second number: 4
+Result: 6.0
+Calculate again? (yes/no): yes
+Enter first number: 6
+Enter operator (+, -, *, /): *
+Enter second number: 7
+Result: 42.0
+Calculate again? (yes/no): yes
+Enter first number: 20
+Enter operator (+, -, *, /): /
+Enter second number: 4
+Result: 5.0
+Calculate again? (yes/no): yes
+Enter first number: 8
+Enter operator (+, -, *, /): /
+Enter second number: 0
+Result: Error: cannot divide by zero
+Calculate again? (yes/no): no
+Goodbye!
