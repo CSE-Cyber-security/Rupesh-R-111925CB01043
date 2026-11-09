@@ -1,0 +1,285 @@
+
+=========== DAILY EXPENSE TRACKER ===========
+1. Add expense
+2. View all expenses
+3. View expenses by date
+4. Category-wise summary
+5. Monthly summary
+6. Delete an expense
+7. Exit
+==============================================
+Enter your choice (1-7): 1
+
+--- Add New Expense ---
+Date YYYY-MM-DD (press Enter for today): 2026-11-09
+Categories:
+  1. Food
+  2. Transport
+  3. Shopping
+  4. Bills
+  5. Entertainment
+  6. Other
+Choose category number: 1
+Description: Breakfast at canteen
+Amount (Rs.): 45
+Expense added successfully!
+
+=========== DAILY EXPENSE TRACKER ===========
+1. Add expense
+2. View all expenses
+3. View expenses by date
+4. Category-wise summary
+5. Monthly summary
+6. Delete an expense
+7. Exit
+==============================================
+Enter your choice (1-7): 1
+
+--- Add New Expense ---
+Date YYYY-MM-DD (press Enter for today): 2026-11-09
+Categories:
+  1. Food
+  2. Transport
+  3. Shopping
+  4. Bills
+  5. Entertainment
+  6. Other
+Choose category number: 2
+Description: Bus pass top-up
+Amount (Rs.): 200
+Expense added successfully!
+
+=========== DAILY EXPENSE TRACKER ===========
+1. Add expense
+2. View all expenses
+3. View expenses by date
+4. Category-wise summary
+5. Monthly summary
+6. Delete an expense
+7. Exit
+==============================================
+Enter your choice (1-7): 1
+
+--- Add New Expense ---
+Date YYYY-MM-DD (press Enter for today): 2026-11-09
+Categories:
+  1. Food
+  2. Transport
+  3. Shopping
+  4. Bills
+  5. Entertainment
+  6. Other
+Choose category number: 3
+Description: Notebook and pens
+Amount (Rs.): 120.50
+Expense added successfully!
+
+=========== DAILY EXPENSE TRACKER ===========
+1. Add expense
+2. View all expenses
+3. View expenses by date
+4. Category-wise summary
+5. Monthly summary
+6. Delete an expense
+7. Exit
+==============================================
+Enter your choice (1-7): 1
+
+--- Add New Expense ---
+Date YYYY-MM-DD (press Enter for today): 2026-11-10
+Categories:
+  1. Food
+  2. Transport
+  3. Shopping
+  4. Bills
+  5. Entertainment
+  6. Other
+Choose category number: 1
+Description: Lunch
+Amount (Rs.): 80
+Expense added successfully!
+
+=========== DAILY EXPENSE TRACKER ===========
+1. Add expense
+2. View all expenses
+3. View expenses by date
+4. Category-wise summary
+5. Monthly summary
+6. Delete an expense
+7. Exit
+==============================================
+Enter your choice (1-7): 1
+
+--- Add New Expense ---
+Date YYYY-MM-DD (press Enter for today): 2026-11-10
+Categories:
+  1. Food
+  2. Transport
+  3. Shopping
+  4. Bills
+  5. Entertainment
+  6. Other
+Choose category number: 5
+Description: Movie ticket
+Amount (Rs.): 150
+Expense added successfully!
+
+=========== DAILY EXPENSE TRACKER ===========
+1. Add expense
+2. View all expenses
+3. View expenses by date
+4. Category-wise summary
+5. Monthly summary
+6. Delete an expense
+7. Exit
+==============================================
+Enter your choice (1-7): 1
+
+--- Add New Expense ---
+Date YYYY-MM-DD (press Enter for today): abc
+  Wrong format. Example: 2026-11-09
+Date YYYY-MM-DD (press Enter for today): 2026-11-10
+Categories:
+  1. Food
+  2. Transport
+  3. Shopping
+  4. Bills
+  5. Entertainment
+  6. Other
+Choose category number: 6
+Description: Mobile recharge
+Amount (Rs.): -5
+  Amount must be greater than 0. Try again.
+Amount (Rs.): 0
+  Amount must be greater than 0. Try again.
+Amount (Rs.): 299
+Expense added successfully!
+
+=========== DAILY EXPENSE TRACKER ===========
+1. Add expense
+2. View all expenses
+3. View expenses by date
+4. Category-wise summary
+5. Monthly summary
+6. Delete an expense
+7. Exit
+==============================================
+Enter your choice (1-7): 2
+
+--- All Expenses ---
+ID   Date        Category       Description                Amount
+-----------------------------------------------------------------
+1    2026-11-09  Food           Breakfast at canteen        45.00
+2    2026-11-09  Transport      Bus pass top-up            200.00
+3    2026-11-09  Shopping       Notebook and pens          120.50
+4    2026-11-10  Food           Lunch                       80.00
+5    2026-11-10  Entertainment  Movie ticket               150.00
+6    2026-11-10  Other          Mobile recharge            299.00
+-----------------------------------------------------------------
+Total                                                     894.50
+
+=========== DAILY EXPENSE TRACKER ===========
+1. Add expense
+2. View all expenses
+3. View expenses by date
+4. Category-wise summary
+5. Monthly summary
+6. Delete an expense
+7. Exit
+==============================================
+Enter your choice (1-7): 3
+
+--- Expenses for a Date ---
+Date YYYY-MM-DD (press Enter for today): 2026-11-09
+ID   Date        Category       Description                Amount
+-----------------------------------------------------------------
+1    2026-11-09  Food           Breakfast at canteen        45.00
+2    2026-11-09  Transport      Bus pass top-up            200.00
+3    2026-11-09  Shopping       Notebook and pens          120.50
+-----------------------------------------------------------------
+Total                                                     365.50
+
+=========== DAILY EXPENSE TRACKER ===========
+1. Add expense
+2. View all expenses
+3. View expenses by date
+4. Category-wise summary
+5. Monthly summary
+6. Delete an expense
+7. Exit
+==============================================
+Enter your choice (1-7): 4
+
+--- Category-wise Summary ---
+Category            Total    Share
+----------------------------------
+Other              299.00    33.4%
+Transport          200.00    22.4%
+Entertainment      150.00    16.8%
+Food               125.00    14.0%
+Shopping           120.50    13.5%
+----------------------------------
+Grand Total        894.50
+
+=========== DAILY EXPENSE TRACKER ===========
+1. Add expense
+2. View all expenses
+3. View expenses by date
+4. Category-wise summary
+5. Monthly summary
+6. Delete an expense
+7. Exit
+==============================================
+Enter your choice (1-7): 5
+
+--- Monthly Summary ---
+2026-11 : Rs. 894.50
+
+=========== DAILY EXPENSE TRACKER ===========
+1. Add expense
+2. View all expenses
+3. View expenses by date
+4. Category-wise summary
+5. Monthly summary
+6. Delete an expense
+7. Exit
+==============================================
+Enter your choice (1-7): 6
+
+--- Delete an Expense ---
+Enter the ID to delete: 3
+Expense deleted.
+
+=========== DAILY EXPENSE TRACKER ===========
+1. Add expense
+2. View all expenses
+3. View expenses by date
+4. Category-wise summary
+5. Monthly summary
+6. Delete an expense
+7. Exit
+==============================================
+Enter your choice (1-7): 2
+
+--- All Expenses ---
+ID   Date        Category       Description                Amount
+-----------------------------------------------------------------
+1    2026-11-09  Food           Breakfast at canteen        45.00
+2    2026-11-09  Transport      Bus pass top-up            200.00
+4    2026-11-10  Food           Lunch                       80.00
+5    2026-11-10  Entertainment  Movie ticket               150.00
+6    2026-11-10  Other          Mobile recharge            299.00
+-----------------------------------------------------------------
+Total                                                     774.00
+
+=========== DAILY EXPENSE TRACKER ===========
+1. Add expense
+2. View all expenses
+3. View expenses by date
+4. Category-wise summary
+5. Monthly summary
+6. Delete an expense
+7. Exit
+==============================================
+Enter your choice (1-7): 7
+Thank you! Your data is saved in expenses.csv
